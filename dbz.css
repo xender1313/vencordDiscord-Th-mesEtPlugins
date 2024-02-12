@@ -2,13 +2,13 @@
      --background: url('https://uiuiui.in/uploads/posts/2023-01/1673006916-fc89cc20672544c7f34afff759603565.webp');
      --activetext-colour: white;
  
-     --primary1-colour: yellow;
-     --primary2-colour: rgba(255,255,0,0.5);
-     --primary3-colour: rgba(100,0,0,0.6);
- 
-     --secondary1-colour: rgba(50,50,50,0.3);
-     --secondary2-colour: rgba(100,100,100,0.5);
-     --secondary3-colour: rgba(0,0,0,0.5);
+     --primary1-colour: green;
+    --primary2-colour: rgba(0,102,0,0.5);
+    --primary3-colour: rgba(0,0,102,0.6);
+
+    --secondary1-colour: rgba(50,50,50,0.3);
+    --secondary2-colour: rgba(100,100,100,0.5);
+    --secondary3-colour: rgba(0,0,0,0.5);
  
      --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
      --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
@@ -19,11 +19,11 @@
    
  /*
  Theme Owned and Made by siriusblack1969
-   
- Background Img: https://uiuiui.in/uploads/posts/2023-01/1673006916-fc89cc20672544c7f34afff759603565.webp
- Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
- 
- The 2 items above are not owned by me, They go to there respected owners 
+  
+Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
+
+The 2 items above are not owned by me, They go to there respected owners 
  */
  
 /*--------------------------------------------------------*/
