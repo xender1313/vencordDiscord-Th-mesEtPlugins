@@ -18,12 +18,12 @@
  }
    
  /*
- Theme Owned and Made by siriusblack1969
+ Thème détenu et réalisé par siriusblack1969
   
-Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+Background Img: https://images5.alphacoders.com/132/1329226.jpeg
 Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
 
-The 2 items above are not owned by me, They go to there respected owners 
+Les 2 articles ci-dessus ne m'appartiennent pas, ils vont à leurs propriétaires respectés.
  */
  
 /*--------------------------------------------------------*/
@@ -31,32 +31,32 @@ The 2 items above are not owned by me, They go to there respected owners
     background: var(--background-image);
 }
 
-/* removing backgrounds */
+/* supprimer les arrière-plans */
 
-/* Guild and Top bar transparency */
+/* Transparence de la guilde et de la barre supérieure */
 .theme-dark .wrapper_a7e7a8 {
     background:transparent;
     background-image: var(--transparency-1);
 }
 
-/* transparency for channels and members list and private channels and left side of settings*/
+/* transparence pour les chaînes et la liste des membres, les chaînes privées et le côté gauche des paramètres*/
 #app-mount .container__590e2, .privateChannels__93473, .app_b1f720 .standardSidebarView__1129a, .app_b1f720 .container__5c7e7 {
     background: transparent;
-    background-image: var(--transparency-2); 
+    background-image: var(--transparency-1); 
 }
 .theme-dark .panels__58331, .theme-light .panels__58331 {
-    background: var(--transparency-2);
+    background: var(--transparency-1);
 }
-/* chat and top area and other secondary pages */
+/* chat et zone supérieure et autres pages secondaires */
 .app_b1f720 .chat__52833, .app_b1f720 .scrollableContainer__33e06 {
     background: transparent;
-    background-image: var(--transparency-3);
+    background-image: var(--transparency-2);
 }
-/* removing color from specific class */
+/* supprimer la couleur d'une classe spécifique */
 .panels__58331 {
     background-color: transparent;
 }
-/* extra for transparency 3 special case */
+/* supplément pour transparence 3 cas particulier */
 .themeDark-3Ap_7i, .app_b1f720 .chat__52833 {
     background-color: transparent;
     background-image: var(--transparency-3);
@@ -64,12 +64,12 @@ The 2 items above are not owned by me, They go to there respected owners
 .typeWindows__5fa63 {
     background-image: var(--transparency-5);
 }
-/* removes margin from top area and adds it to the nav buttons + discord logo */
+/* supprime la marge de la zone supérieure et l'ajoute aux boutons de navigation + logo Discord*/
 .typeWindows__5fa63 {
     height: 21px;
     margin-top: 0px;
 }
-/* removes a border under better discord at channels */
+/* supprime une bordure sous vencord sur les chaînes */
 .unread-1xRYoj {
     display:none;
 }
@@ -82,14 +82,14 @@ The 2 items above are not owned by me, They go to there respected owners
 } 
 /*--------------------------------------------------------*/
 
-/*Background Img*/
+/*Arrière-plan Img*/
     #app-mount {
         background-image: var(--background); 
         background-position: center; 
         background-size: cover; 
     }
 
-/*Home and Discover*/
+/*Accueil et découverte*/
     /*Nitro*/
         #app-mount .applicationStore_fc7d76 {background-color: var(--secondary3-colour);}
         #app-mount .feature-2IUcBI {background-color: var(--secondary1-colour);}
@@ -99,7 +99,7 @@ The 2 items above are not owned by me, They go to there respected owners
             background-color: white;
         } 
 
-    /*Sidebar: Direct Messages*/
+    /*Barre latérale : messages directs*/
         #app-mount .channel_c21703,
         #app-mount .sidebar_ded4b5 .categoryItem_b1be5c { 
             margin-bottom: 2px; 
@@ -119,7 +119,7 @@ The 2 items above are not owned by me, They go to there respected owners
             border-radius: 10px;
         }
 
-    /*Discover Servers*/
+    /*Découvrez les serveurs*/
         #app-mount .sidebar_ded4b5 div[dir="ltr"] {background-image: var(--transparency-2);}
         #app-mount .sidebar_ded4b5 .itemInner__9e755 {margin: 0!important;}
 
@@ -137,27 +137,27 @@ The 2 items above are not owned by me, They go to there respected owners
 
         #app-mount .pageWrapper_fef757 .searchBoxInput-3h4etz {background-color: transparent;}
 
-    /*Now Active*/
+    /*Maintenant actif*/
         #app-mount .nowPlayingColumn_f5023f .itemCard__1f162 {background-color: var(--secondary3-colour);}
         #app-mount .nowPlayingColumn_f5023f .itemCard__1f162:hover {background-color: var(--secondary1-colour);}
         #app-mount .nowPlayingColumn_f5023f .itemCard__1f162 .body__83069 {background-color: var(--secondary2-colour);}
 
-/*In Servers*/
+/*Dans les serveurss*/
     #app-mount .listItem_fa7b36 .numberBadge__50328 {
         background-color: var(--primary1-colour)!important;
     }
 
-    /*Icon Servers*/
+    /*icônes de Serveurs*/
         #app-mount .wrapper_d281dd {background-color: var(--secondary1-colour);}
         #app-mount .wrapper_d281dd:hover {background-color: var(--primary3-colour);}
-    /*Letter Servers*/
+    /* lettres de Serveurs*/
         #app-mount .childWrapper__01b9c ,#app-mount .circleIconButton_d8df29 {background-color: var(--secondary1-colour);}
         #app-mount .childWrapper__01b9c:hover ,#app-mount .circleIconButton_d8df29:hover {background-color: var(--primary3-colour);}
 
-    /*Server Folders*/
+    /*Dossiers du serveur*/
         #app-mount .expandedFolderBackground__1bec6:not(.collapsed__0a270) {background-color: var(--secondary3-colour);}
         
-    /*Server Boosting*/
+    /*Booster le serveur*/
         #app-mount .perksModal-CLcR1c {background: var(--transparency-1);}
         #app-mount .closeWrapper-1aVqeP .closeButton__34341{margin-top: 40px;}
 
@@ -176,7 +176,7 @@ The 2 items above are not owned by me, They go to there respected owners
         }
 
 
-    /*Channels*/
+    /*Canaux*/
         #app-mount .containerDefault__23a29 {
             background-color: var(--primary3-colour); 
             height: 30px; text-align: center; 
@@ -201,7 +201,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
         #app-mount .autocomplete_df266d {background-color: var(--secondary3-colour);}
 
-        /*Text Channels*/
+        /*texte de Canaux*/
             #app-mount .containerDefault__3187b .wrapper__7bcde:hover {width: 100%;}
             #app-mount .containerDefault__3187b.selected__3b4cb .wrapper__7bcde {width: 100%;}
             #app-mount .wrapper__7bcde { background-color: var(--secondary1-colour) }
@@ -220,7 +220,7 @@ The 2 items above are not owned by me, They go to there respected owners
                 border-radius: 5px;
             }
 
-        /*Voice Channels*/
+        /*Canaux vocaux*/
             #app-mount .containerDefault__3187b .modeConnected__1c02e div.wrapper__7bcde {width: 100%; background-color: var(--secondary2-colour);}
             #app-mount .containerDefault__3187b .modeLocked_fcc71a div.wrapper__7bcde {background-color: var(--primary3-colour);}
 
@@ -244,7 +244,7 @@ The 2 items above are not owned by me, They go to there respected owners
                 #app-mount .button__4f306[aria-label="Disconnect"] {background-color: var(--primary3-colour)!important;}
                 #app-mount .button__4f306[aria-label="Disconnect"]:hover {background-color: var(--primary2-colour)!important;}
 
-            /*VC User*/
+            /*VC Utilisateur*/
                 #app-mount .list__02208 { padding-left: 10px; }
                 #app-mount .userAvatar_c4f005 { margin-left: 15px; }
 
@@ -276,7 +276,7 @@ The 2 items above are not owned by me, They go to there respected owners
                     border-radius: 2px; margin-left: 20px;
                 }
 
-            /*Live Feed*/
+            /*Flux en direct*/
                 #app-mount .root__3eef0, 
                 #app-mount .callContainer_cbde45 {
                     background: var(--transparency-1);
@@ -343,7 +343,7 @@ The 2 items above are not owned by me, They go to there respected owners
         }
         #app-mount .hasReply_febd50 .buttonContainer_dd4b62 .wrapper_c727b6{ margin-top: 24px; }
 
-        /*Embeds*/
+        /*Intégrations*/
             #app-mount .embedFull__8dc21 {
                 background-color: var(--secondary1-colour); 
                 border-left: 4px solid;
@@ -399,7 +399,7 @@ The 2 items above are not owned by me, They go to there respected owners
                 border-color: var(--primary1-colour);
             }
 
-/*Server Members*/
+/*Membres du serveur*/
     #app-mount .member_aa4760 .layout_bb8e67 {
         margin-left: 30px;
         transition: margin-left 0.2s;
@@ -422,7 +422,7 @@ The 2 items above are not owned by me, They go to there respected owners
     }
 
 
-/*ScrollBars*/
+/*Barres de défilement (ScrollBars)*/
     #app-mount ::-webkit-scrollbar-thumb {background-color: var(--primary2-colour); border-color: transparent;}
 
     #app-mount .messagesWrapper_ea2b0b ::-webkit-scrollbar-track-piece, 
@@ -443,7 +443,7 @@ The 2 items above are not owned by me, They go to there respected owners
         border-color: var(--primary3-colour)
     }
 
-/*Settings*/
+/*Paramètres*/
     #app-mount .sidebarRegion__60457 .side_b4b3f6 .item__48dda {
         line-height:15px; 
         background-color: var(--secondary1-colour); 
@@ -531,7 +531,7 @@ The 2 items above are not owned by me, They go to there respected owners
         border-radius: 3px;
     }
 
-    /*User Settings*/
+    /*Paramètres utilisateur*/
         #app-mount .accountProfileCard__22589 {background-color: var(--secondary1-colour);}       
         
         #app-mount .tabBar__22a9a .tabBarItem_ad34cc.selected__5711d,
@@ -580,7 +580,7 @@ The 2 items above are not owned by me, They go to there respected owners
             background-color: var(--secondary1-colour);
         }
 
-    /*Server Settings*/
+    /*Paramètres du serveur*/
         #app-mount .header__63c59 {background-color: var(--secondary3-colour);}
 
         #app-mount .tabBar_a013ee .tabBarItem__0ff10.selected__5711d,
@@ -657,7 +657,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
         #app-mount .settingCard-xZSDjS {background-color: var(--secondary1-colour);}
 
-/*ChangeLog And Other Popups*/
+/*ChangeLog et autres fenêtres contextuelles*/
     #app-mount .modal__4f3da,
     #app-mount .browser_fece63,
     #app-mount .menu_dc52c6,
@@ -709,7 +709,7 @@ The 2 items above are not owned by me, They go to there respected owners
         background-color: var(--secondary3-colour);
     }
 
-    /*Inbox popup*/
+    /*popup boîte de réception*/
         #app-mount .header-PfVfAO,
         #app-mount .channelHeader__5d30c {
             background-color: var(--secondary2-colour);
@@ -738,7 +738,7 @@ The 2 items above are not owned by me, They go to there respected owners
             padding: 0!important;
         }
 
-/*User Popup*/
+/*Popup Utilisateur*/
     #app-mount .userProfileOuterUnthemed__48723 .userPopoutInner_f545a3,
     #app-mount .userProfileOuterUnthemed__48723,
     #app-mount .userPanelInner_eddf4c {
@@ -755,7 +755,7 @@ The 2 items above are not owned by me, They go to there respected owners
         background-color: var(--secondary2-colour);
     }
 
-/*Search Popup*/
+/*Popup Recherche*/
     #app-mount .container_d6dad3,
     #app-mount .container_d6dad3 ul {
         background-color: var(--secondary3-colour);
@@ -787,7 +787,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
     #app-mount .container_d6dad3 .hintValue_c2ce1f {background-color: var(--primary1-colour);}
 
-/*Join & Create Server Popup*/
+/*Rejoindre ou créer une fenêtre Popup*/
     #app-mount .container-1Lk8p7 .header__6d5ea {padding-bottom: 24px;}
     #app-mount .container-1Lk8p7 .header__6d5ea .heading-xl-semibold__5e2e4,
     #app-mount .container-1Lk8p7 .header__6d5ea .text-md-normal__6a4eb,
@@ -821,7 +821,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
     #app-mount .container-1Lk8p7 .content__764ce {margin-top: 24px;}
 
-/*Emoji, Gif and SoundBoard Picker Popup*/
+/*Sélecteur d'Emoji, Gif et SoundBoard Popup*/
     #app-mount .contentWrapper__321ed,
     #app-mount .contentWrapper_eab878,
     #app-mount .picker__6dca7 {
@@ -840,7 +840,7 @@ The 2 items above are not owned by me, They go to there respected owners
     #app-mount .contentWrapper__321ed .result_e1fc74[style*="background-color: var(--premium-tier-1"] {background-color: var(--primary3-colour)!important;}
     #app-mount .contentWrapper__321ed .result_e1fc74[style*="background-color: rgb(146, 154, 250);"] {background-color: var(--primary2-colour)!important}
 
-/*TopBar*/
+/*Barre du haut*/
     #app-mount .typeWindows__5fa63 {
         background-color: var(--secondary3-colour); 
         border-bottom: 2px solid var(--primary3-colour); 
