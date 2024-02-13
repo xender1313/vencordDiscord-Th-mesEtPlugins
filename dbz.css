@@ -36,7 +36,7 @@ Les 2 articles ci-dessus ne m'appartiennent pas, ils vont à leurs propriétaire
 /* Transparence de la guilde et de la barre supérieure */
 .theme-dark .wrapper_a7e7a8 {
     background:transparent;
-    background-image: var(--transparency-3);
+    background-image: var(--transparency-5);
 }
 
 /* transparence pour les chaînes et la liste des membres, les chaînes privées et le côté gauche des paramètres*/
